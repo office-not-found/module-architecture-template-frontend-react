@@ -1,7 +1,7 @@
 import { useEffect, type PropsWithChildren } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { ROUTES } from "@/core/config/routes";
-import { LoaderOverlay } from "@/core/ui";
+import { ROUTES } from "@/shared/config/routes";
+import { LoaderOverlay } from "@/shared/ui";
 import { useGetSelfQuery } from "@/modules/account-module/query";
 
 export const CheckAuthProvider = ({ children }: PropsWithChildren) => {

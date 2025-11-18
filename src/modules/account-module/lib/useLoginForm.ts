@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
 import { type TLoginData, type IUser, loginResolver, useAccountStore } from "../model";
 import { useLoginQuery } from "../query";
-import { ROUTES } from "@/core/config/routes";
+import { ROUTES } from "@/shared/config/routes";
 
 export const useLoginForm = () => {
     const navigate = useNavigate();

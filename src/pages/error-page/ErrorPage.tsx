@@ -1,7 +1,7 @@
 import { Link, useRouteError } from "react-router";
 import styles from "./errorPage.module.scss";
-import { ROUTES } from "@/core/config/routes";
-import { Button } from "@/core/ui";
+import { ROUTES } from "@/shared/config/routes";
+import { Button } from "@/shared/ui";
 
 export const ErrorPage = () => {
     const routeError = useRouteError();

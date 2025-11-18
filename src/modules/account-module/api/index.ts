@@ -1,5 +1,5 @@
 import { type TLoginData, type IPermissionItemResponse, type IUser } from "../model";
-import { instanceApi } from "@/core/api";
+import { instanceApi } from "@/shared/api";
 
 export const fetchLogin = (data: TLoginData) =>
     instanceApi.post<IUser>("/auth/login", data).then(({ data }) => data);

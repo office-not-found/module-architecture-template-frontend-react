@@ -1,5 +1,5 @@
 import axios, { type AxiosError, type AxiosResponse } from "axios";
-import { ROUTES } from "@/core/config/routes";
+import { ROUTES } from "@/shared/config/routes";
 
 export const paramsSerializer = (params: Record<string, any>) => {
     const searchParams = new URLSearchParams();

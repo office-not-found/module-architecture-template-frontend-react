@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { fetchLogin } from "../api";
 import type { TLoginData } from "../model";
-import { EQueryKeys } from "@/core/config/query";
+import { EQueryKeys } from "@/shared/config/query";
 
 export const useLoginMutation = () => {
     const queryClient = useQueryClient();

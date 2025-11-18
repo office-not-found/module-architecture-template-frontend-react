@@ -1,5 +1,5 @@
 import { notifications } from "@mantine/notifications";
-import { NOTIFICATIONS_TRANSITION_MS } from "@/core/config/notifications";
+import { NOTIFICATIONS_TRANSITION_MS } from "@/shared/config/notifications";
 
 export const customShowNotification = (
     props: Parameters<typeof notifications.show>[0],

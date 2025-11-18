@@ -2,8 +2,8 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useNavigate } from "react-router";
 import { fetchLogout } from "../api";
 import { useAccountStore } from "../model";
-import { EQueryKeys } from "@/core/config/query";
-import { ROUTES } from "@/core/config/routes";
+import { EQueryKeys } from "@/shared/config/query";
+import { ROUTES } from "@/shared/config/routes";
 
 export const useLogoutMutation = () => {
     const navigate = useNavigate();

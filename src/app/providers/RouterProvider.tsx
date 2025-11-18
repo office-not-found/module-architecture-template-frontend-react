@@ -2,7 +2,7 @@ import { lazy, type PropsWithChildren } from "react";
 import { createBrowserRouter, RouterProvider as ReactRouterProvider } from "react-router";
 import { ErrorPage } from "@/pages/error-page";
 import { CheckAuthProvider } from "./CheckAuthProvider";
-import { ROUTES } from "@/core/config/routes";
+import { ROUTES } from "@/shared/config/routes";
 
 const Layout = lazy(() => import("@/pages/layout"));
 const NotFoundPage = lazy(() => import("@/pages/not-found-page"));

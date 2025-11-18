@@ -1,4 +1,4 @@
-import { queryClient } from "@/core/config/query";
+import { queryClient } from "@/shared/config/query";
 
 export const invalidateQueriesByKeys = (keys: string[]) => {
     queryClient.invalidateQueries({

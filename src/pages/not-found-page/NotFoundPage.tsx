@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import styles from "./notFoundPage.module.scss";
-import { ROUTES } from "@/core/config/routes";
-import { Button } from "@/core/ui";
+import { ROUTES } from "@/shared/config/routes";
+import { Button } from "@/shared/ui";
 
 export const NotFoundPage = () => {
     return (
