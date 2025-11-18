@@ -11,7 +11,7 @@ const LoginPage = lazy(() => import("@/pages/login-page"));
 const router = createBrowserRouter([
     {
         path: "*",
-        element: <NotFoundPage />
+        element: <NotFoundPage />,
     },
     {
         path: ROUTES.LOGIN,
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
             <CheckAuthProvider>
                 <LoginPage />
             </CheckAuthProvider>
-        )
+        ),
     },
     {
         path: ROUTES.INDEX,
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
                 <Layout />
             </CheckAuthProvider>
         ),
-        errorElement: <ErrorPage />
-    }
+        errorElement: <ErrorPage />,
+    },
 ]);
 
 export const RouterProvider = ({ children }: PropsWithChildren) => (

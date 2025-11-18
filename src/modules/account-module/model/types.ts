@@ -4,7 +4,7 @@ import type { loginSchema } from "./validation";
 export type TLoginData = z.infer<typeof loginSchema>;
 
 export const EConfigModule = {
-    hh: "hh"
+    hh: "hh",
 } as const;
 
 export type EConfigModuleType = keyof typeof EConfigModule;

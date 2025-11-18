@@ -16,7 +16,7 @@ export const useLoginMutation = () => {
 
     const mutation = useMutation({
         mutationKey: [EQueryKeys.AUTH],
-        mutationFn
+        mutationFn,
     });
 
     return mutation;

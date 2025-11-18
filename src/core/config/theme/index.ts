@@ -7,5 +7,5 @@ export const theme = createTheme({
     fontFamily: "Formular, sans-serif",
     defaultRadius: "md",
     primaryColor: "accent",
-    colors
+    colors,
 });

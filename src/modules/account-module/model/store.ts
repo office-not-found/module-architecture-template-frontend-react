@@ -17,12 +17,12 @@ const DEFAULT_VALUES_ACCOUNT_STATE: AccountStoreState = {
     username: "",
     roleId: 0,
     role: { id: 0, name: "", createdAt: "" },
-    isAuth: false
+    isAuth: false,
 };
 
 export const useAccountStore = create<AccountStore>()((set) => ({
     ...DEFAULT_VALUES_ACCOUNT_STATE,
 
     setAccount: (user) => set({ ...user }),
-    resetAccount: () => set(DEFAULT_VALUES_ACCOUNT_STATE)
+    resetAccount: () => set(DEFAULT_VALUES_ACCOUNT_STATE),
 }));

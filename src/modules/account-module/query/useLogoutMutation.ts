@@ -18,7 +18,7 @@ export const useLogoutMutation = () => {
             resetAccount();
             queryClient.clear();
             navigate(ROUTES.LOGIN, { replace: true });
-        }
+        },
     });
 
     return mutation;

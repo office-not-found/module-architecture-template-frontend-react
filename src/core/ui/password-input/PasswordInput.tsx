@@ -7,7 +7,7 @@ interface PasswordInputProps extends ComponentProps<typeof PasswordInputFromLibU
 export const PasswordInput = ({ ...props }: PasswordInputProps) => (
     <PasswordInputFromLibUi
         classNames={{
-            input: styles.input
+            input: styles.input,
         }}
         {...props}
     />

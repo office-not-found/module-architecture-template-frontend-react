@@ -16,7 +16,7 @@ export const useGetSelfQuery = () => {
 
     const query = useQuery({
         queryKey: [EQueryKeys.ACCOUNT],
-        queryFn
+        queryFn,
     });
 
     return query;
