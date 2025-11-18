@@ -5,8 +5,7 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/jsx-runtime",
-        "plugin:prettier/recommended",
-        "@feature-sliced" // TODO: Feature Sliced Architecture
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "settings": {
